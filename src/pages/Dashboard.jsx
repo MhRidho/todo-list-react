@@ -13,6 +13,7 @@ const Dashboard = () => {
           <div className="flex flex-wrap justify-between mb-9">
             <span className="font-bold text-4xl">Activity</span>
             <Link
+              data-cy="activity-add-button"
               to={"/new-activity"}
               className="bg-[#16ABF8] py-3 px-6 rounded-full text-white font-semibold flex items-center gap-2"
             >
